@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1;
+const nuevoModulo = 21 % 5 === 1.05;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -61,10 +61,10 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x==y){
-    return "true"
+    return "true";
   }
   else {
-    return "false"
+    return "false";
   }
 }
 
@@ -79,14 +79,24 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num < 90) {
+    return "true";
+  }
+  else {
+    return "false";
+  }
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num > 50) {
+    return "true":
+  }
+  else {
+    return "false";
+  }
 }
 
 function obtenerResto(x, y) {
